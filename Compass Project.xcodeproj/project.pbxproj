@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C039EC81AF277A600111843 /* Compass Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C039EC71AF277A600111843 /* Compass Main.png */; };
+		6C16D1751AEA8DCA00299F4F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C16D1741AEA8DCA00299F4F /* CoreLocation.framework */; };
+		6C16D1771AEA8DD100299F4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C16D1761AEA8DD100299F4F /* QuartzCore.framework */; };
 		6CDCAA8F1ADEB5A200165FA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCAA8E1ADEB5A200165FA3 /* main.m */; };
 		6CDCAA921ADEB5A200165FA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCAA911ADEB5A200165FA3 /* AppDelegate.m */; };
 		6CDCAA951ADEB5A200165FA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCAA941ADEB5A200165FA3 /* ViewController.m */; };
@@ -27,7 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CDCAA891ADEB5A200165FA3 /* GDS test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDS test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C039EC71AF277A600111843 /* Compass Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Compass Main.png"; sourceTree = "<group>"; };
+		6C16D1741AEA8DCA00299F4F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6C16D1761AEA8DD100299F4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CDCAA891ADEB5A200165FA3 /* Compass Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compass Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCAA8D1ADEB5A200165FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDCAA8E1ADEB5A200165FA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDCAA901ADEB5A200165FA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +43,7 @@
 		6CDCAA971ADEB5A200165FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CDCAA991ADEB5A200165FA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CDCAA9C1ADEB5A200165FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6CDCAAA21ADEB5A200165FA3 /* GDS testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDS testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDCAAA21ADEB5A200165FA3 /* Compass Project Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compass Project Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCAAA71ADEB5A200165FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDCAAA81ADEB5A200165FA3 /* GDS_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDS_testTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C16D1771AEA8DD100299F4F /* QuartzCore.framework in Frameworks */,
+				6C16D1751AEA8DCA00299F4F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +71,10 @@
 		6CDCAA801ADEB5A200165FA3 = {
 			isa = PBXGroup;
 			children = (
-				6CDCAA8B1ADEB5A200165FA3 /* GDS test */,
-				6CDCAAA51ADEB5A200165FA3 /* GDS testTests */,
+				6C16D1761AEA8DD100299F4F /* QuartzCore.framework */,
+				6C16D1741AEA8DCA00299F4F /* CoreLocation.framework */,
+				6CDCAA8B1ADEB5A200165FA3 /* Compass Project */,
+				6CDCAAA51ADEB5A200165FA3 /* Compass Project testTests */,
 				6CDCAA8A1ADEB5A200165FA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +82,13 @@
 		6CDCAA8A1ADEB5A200165FA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CDCAA891ADEB5A200165FA3 /* GDS test.app */,
-				6CDCAAA21ADEB5A200165FA3 /* GDS testTests.xctest */,
+				6CDCAA891ADEB5A200165FA3 /* Compass Project.app */,
+				6CDCAAA21ADEB5A200165FA3 /* Compass Project Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CDCAA8B1ADEB5A200165FA3 /* GDS test */ = {
+		6CDCAA8B1ADEB5A200165FA3 /* Compass Project */ = {
 			isa = PBXGroup;
 			children = (
 				6CDCAA901ADEB5A200165FA3 /* AppDelegate.h */,
@@ -90,24 +100,27 @@
 				6CDCAA9B1ADEB5A200165FA3 /* LaunchScreen.xib */,
 				6CDCAA8C1ADEB5A200165FA3 /* Supporting Files */,
 			);
+			name = "Compass Project";
 			path = "GDS test";
 			sourceTree = "<group>";
 		};
 		6CDCAA8C1ADEB5A200165FA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C039EC71AF277A600111843 /* Compass Main.png */,
 				6CDCAA8D1ADEB5A200165FA3 /* Info.plist */,
 				6CDCAA8E1ADEB5A200165FA3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CDCAAA51ADEB5A200165FA3 /* GDS testTests */ = {
+		6CDCAAA51ADEB5A200165FA3 /* Compass Project testTests */ = {
 			isa = PBXGroup;
 			children = (
 				6CDCAAA81ADEB5A200165FA3 /* GDS_testTests.m */,
 				6CDCAAA61ADEB5A200165FA3 /* Supporting Files */,
 			);
+			name = "Compass Project testTests";
 			path = "GDS testTests";
 			sourceTree = "<group>";
 		};
@@ -122,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CDCAA881ADEB5A200165FA3 /* GDS test */ = {
+		6CDCAA881ADEB5A200165FA3 /* Compass Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDCAAAC1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "GDS test" */;
+			buildConfigurationList = 6CDCAAAC1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "Compass Project" */;
 			buildPhases = (
 				6CDCAA851ADEB5A200165FA3 /* Sources */,
 				6CDCAA861ADEB5A200165FA3 /* Frameworks */,
@@ -134,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = "GDS test";
+			name = "Compass Project";
 			productName = "GDS test";
-			productReference = 6CDCAA891ADEB5A200165FA3 /* GDS test.app */;
+			productReference = 6CDCAA891ADEB5A200165FA3 /* Compass Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CDCAAA11ADEB5A200165FA3 /* GDS testTests */ = {
+		6CDCAAA11ADEB5A200165FA3 /* Compass Project Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDCAAAF1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "GDS testTests" */;
+			buildConfigurationList = 6CDCAAAF1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "Compass Project Tests" */;
 			buildPhases = (
 				6CDCAA9E1ADEB5A200165FA3 /* Sources */,
 				6CDCAA9F1ADEB5A200165FA3 /* Frameworks */,
@@ -152,9 +165,9 @@
 			dependencies = (
 				6CDCAAA41ADEB5A200165FA3 /* PBXTargetDependency */,
 			);
-			name = "GDS testTests";
+			name = "Compass Project Tests";
 			productName = "GDS testTests";
-			productReference = 6CDCAAA21ADEB5A200165FA3 /* GDS testTests.xctest */;
+			productReference = 6CDCAAA21ADEB5A200165FA3 /* Compass Project Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,18 +177,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = test;
+				ORGANIZATIONNAME = "Marek Helak";
 				TargetAttributes = {
 					6CDCAA881ADEB5A200165FA3 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = T7VRGC3JRN;
 					};
 					6CDCAAA11ADEB5A200165FA3 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = T7VRGC3JRN;
 						TestTargetID = 6CDCAA881ADEB5A200165FA3;
 					};
 				};
 			};
-			buildConfigurationList = 6CDCAA841ADEB5A200165FA3 /* Build configuration list for PBXProject "GDS test" */;
+			buildConfigurationList = 6CDCAA841ADEB5A200165FA3 /* Build configuration list for PBXProject "Compass Project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +203,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CDCAA881ADEB5A200165FA3 /* GDS test */,
-				6CDCAAA11ADEB5A200165FA3 /* GDS testTests */,
+				6CDCAA881ADEB5A200165FA3 /* Compass Project */,
+				6CDCAAA11ADEB5A200165FA3 /* Compass Project Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CDCAA981ADEB5A200165FA3 /* Main.storyboard in Resources */,
+				6C039EC81AF277A600111843 /* Compass Main.png in Resources */,
 				6CDCAA9D1ADEB5A200165FA3 /* LaunchScreen.xib in Resources */,
 				6CDCAA9A1ADEB5A200165FA3 /* Images.xcassets in Resources */,
 			);
@@ -238,7 +254,7 @@
 /* Begin PBXTargetDependency section */
 		6CDCAAA41ADEB5A200165FA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CDCAA881ADEB5A200165FA3 /* GDS test */;
+			target = 6CDCAA881ADEB5A200165FA3 /* Compass Project */;
 			targetProxy = 6CDCAAA31ADEB5A200165FA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -280,7 +296,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kerri Cunningham (MXWNH4DF69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kerri Cunningham (MXWNH4DF69)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -324,7 +341,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kerri Cunningham (MXWNH4DF69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kerri Cunningham (MXWNH4DF69)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -349,9 +367,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "GDS test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,9 +381,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "GDS test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -369,6 +395,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -380,7 +408,8 @@
 				INFOPLIST_FILE = "GDS testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDS test.app/GDS test";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compass Project.app/Compass Project";
 			};
 			name = Debug;
 		};
@@ -388,6 +417,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -395,14 +426,15 @@
 				INFOPLIST_FILE = "GDS testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDS test.app/GDS test";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compass Project.app/Compass Project";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CDCAA841ADEB5A200165FA3 /* Build configuration list for PBXProject "GDS test" */ = {
+		6CDCAA841ADEB5A200165FA3 /* Build configuration list for PBXProject "Compass Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCAAAA1ADEB5A200165FA3 /* Debug */,
@@ -411,21 +443,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CDCAAAC1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "GDS test" */ = {
+		6CDCAAAC1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "Compass Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCAAAD1ADEB5A200165FA3 /* Debug */,
 				6CDCAAAE1ADEB5A200165FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6CDCAAAF1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "GDS testTests" */ = {
+		6CDCAAAF1ADEB5A200165FA3 /* Build configuration list for PBXNativeTarget "Compass Project Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDCAAB01ADEB5A200165FA3 /* Debug */,
 				6CDCAAB11ADEB5A200165FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
